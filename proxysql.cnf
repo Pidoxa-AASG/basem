@@ -13,7 +13,7 @@ pidfile="/etc/proxysql.pid"
 admin_variables=
 {
   # Credentials for the ProxySQL Admin interface
-  admin_credentials="admin:admin"
+  admin_credentials="admin:admin;rmadmin:rmadmin"
   
   # Bind address for the Admin interface
   # By default, listens on 127.0.0.1:6032, but here we allow external access
